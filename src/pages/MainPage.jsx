@@ -5,9 +5,6 @@ const MainPage = () => {
     <div className="main-page-container">
       <p>texte de présentation</p>
       <div id="hero">
-        <div class="polygon-container">
-          <div class="polygon"></div>
-        </div>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque officia
           beatae sunt, hic laboriosam voluptas nesciunt maiores, quisquam

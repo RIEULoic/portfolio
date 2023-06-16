@@ -1,0 +1,24 @@
+
+
+.main-page-container {
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.works-container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+#hero {
+
+  height: 70vh;
+  width: 97vw;
+  background: url("../assets/images/massive-code.jpg") center/cover;
+  border-radius: 30px;
+
+
+}
