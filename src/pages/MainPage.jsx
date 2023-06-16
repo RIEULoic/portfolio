@@ -3,9 +3,17 @@ import "./MainPage.css";
 const MainPage = () => {
   return (
     <div className="main-page-container">
-      <h1>Titre</h1>
       <p>texte de présentation</p>
-      <div>hero image</div>
+      <div id="hero">
+        <div class="polygon-container">
+          <div class="polygon"></div>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque officia
+          beatae sunt, hic laboriosam voluptas nesciunt maiores, quisquam
+          aliquam quasi autem! Facilis sed doloremque perspiciatis rerum quaerat
+        </p>
+      </div>
       <div className="works-container">
         <div>
           <h2>Travaux1</h2>

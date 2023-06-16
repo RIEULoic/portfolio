@@ -1,11 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair&display=swap');
+
 * {
-  border: solid 2px red;
+  /* border: solid 2px red; */
   margin: 0;
-  
+
 }
 
 .App {
+
+  font-family: 'Playfair', serif;
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+
+  background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
 }
