@@ -5,11 +5,16 @@ const MainPage = () => {
     <div className="main-page-container">
       <p>texte de présentation</p>
       <div id="hero">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque officia
-          beatae sunt, hic laboriosam voluptas nesciunt maiores, quisquam
-          aliquam quasi autem! Facilis sed doloremque perspiciatis rerum quaerat
-        </p>
+        <div className="grid-container">
+          <div id="polygon"></div>
+          <div></div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+            officia beatae sunt, hic laboriosam voluptas nesciunt maiores,
+            quisquam aliquam quasi autem! Facilis sed doloremque perspiciatis
+            rerum quaerat
+          </p>
+        </div>
       </div>
       <div className="works-container">
         <div>
