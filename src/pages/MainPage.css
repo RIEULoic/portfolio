@@ -7,11 +7,7 @@
   align-items: center;
 }
 
-.works-container {
-  display: flex;
-  flex-direction: column;
 
-}
 
 #hero {
 
@@ -25,25 +21,56 @@
 }
 
 .grid-container {
+  
   box-sizing: border-box;
-  border:red solid 2px;
+  border:rgb(0, 255, 238) solid 2px;
   border-radius: 10px;
   display: grid;
-  grid-template-columns: 30% 10% 60%;
+  grid-template-columns: 40% 5% 55%;
   margin: 20vh 10vw;
   padding: 5vh 5vw;
   filter: drop-shadow(0px 15px 4px rgba(9, 121, 30, 0.412));
   backdrop-filter: blur(5px);
-  max-height: 280px;
+  max-height: 200px;
  
 }
 
 .grid-container > * {
   color: aliceblue;
-  max-height: 200px;
+  max-height: 140px;
+  min-height: 140px;
  
- 
+
+}
+
+.svg-container{
+  /* position: relative; */
+  height: 100%;
+  width: 100%;
+  border: 2px solid red;
   
+
+}
+.blob-svg {
+  /* position: absolute; */
+  border: 2px solid blue;
+  
+}
+
+.blob-violet {
+  border: 2px solid green;
+}
+
+
+.works-container {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+
+}
+
+#lord-meteo {
+  border: 2px solid blue;
 }
 
 #polygon {
