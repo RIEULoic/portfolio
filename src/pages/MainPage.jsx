@@ -1,3 +1,5 @@
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 import { ReactComponent as Blob } from "../assets/images/blobs-fusion1.svg";
 import { ReactComponent as Blob2 } from "../assets/images/blobs-fusion2.svg";
 import cat from "../assets/images/cat.jpg";
@@ -7,6 +9,7 @@ import "./MainPage.css";
 const MainPage = () => {
   return (
     <div className="main-page-container">
+      <Header />
       <p>texte de présentation</p>
       <div id="hero">
         <div className="grid-container">
@@ -97,6 +100,7 @@ const MainPage = () => {
         <Blob className="blob-violet" />
       </div>
       <p>contact</p>
+      <Footer />
     </div>
   );
 };
