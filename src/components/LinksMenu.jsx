@@ -30,7 +30,7 @@ const LinksMenu = () => {
       titleLink1 = "Accueil";
       titleLink2 = "Projets";
       break;
-    //Sans les breaks, il a afficher le dernier cas je crois
+    //Sans les breaks, il va afficher le dernier cas je crois
   }
 
   return (

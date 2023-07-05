@@ -1,11 +1,18 @@
+import { useContext } from "react";
+import DayNightContext from "../context/DayNightContext";
+
 //import sunIcon from "../assets/images/sun_icon.png";
 import LinksMenu from "./LinksMenu";
+import Button from "./Button";
 import { ReactComponent as SunIcon2 } from "../assets/images/sun-icon.svg";
 import { ReactComponent as Linkedin } from "../assets/images/linkedin-logo.svg";
 import { ReactComponent as Github } from "../assets/images/github-logo.svg";
 import "./Header.css";
 
 const Header = () => {
+  const dayNightContext = useContext(DayNightContext);
+  console.log(dayNightContext);
+
   return (
     <header id="header-container">
       <div>
@@ -21,8 +28,10 @@ const Header = () => {
 
       <div>
         <LinksMenu />
-        <SunIcon2 className="logo" />
-        {/* <img src={sunIcon} alt="sun icon" /> */}
+        <Button onClick={dayNightContext.toggleDayNight}>
+          <SunIcon2 className="logo" />
+          {/* <img src={sunIcon} alt="sun icon" /> */}
+        </Button>
       </div>
     </header>
   );

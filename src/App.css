@@ -6,11 +6,21 @@
 
 }
 
-.App {
+.day {
 
   font-family: 'Playfair', serif;
   display: flex;
   flex-direction: column;
 
   background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
+}
+
+.night {
+  
+    font-family: 'Playfair', serif;
+    display: flex;
+    flex-direction: column;
+    color: white;
+  
+    background-image: linear-gradient(to top, #0f2027 0%, #203a43 100%);
 }
